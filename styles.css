@@ -1,9 +1,35 @@
 *{
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
+    padding: 20px
 }
 body{
     background: #ddd;
     font-family: Helvetica;
+    position: relative;
+}
+
+.container{
+    background: black;
+    width: 563px;
+    height: 1218px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 50px;
+}
+.top{
+    height: 250px;
+    border: 1px solid white;
+    padding: 0 20px;
+}
+.top img{
+    padding: 0 20px;
+    border: 1px solid blue;
+}
+.display{
+    font-size: 130px;
+    margin-bottom: 20px;
+    border: 1px solid yellow;
+    color: white;
 }
